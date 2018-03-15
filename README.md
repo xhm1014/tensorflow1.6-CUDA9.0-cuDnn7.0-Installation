@@ -22,7 +22,7 @@ The following are steps:
     
     --- open Control Panel - System and Security - System - Advanced system settings - Environmental Variables (see the EV.png picture)
     
-    --- click the path - edit - add following path to path variale (see the )
+    --- click the path - edit - add following path to path variale (see the path.png picture)
         
           C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\cuda
           
@@ -33,3 +33,15 @@ The following are steps:
           C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
           
           C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include
+          
+  7) write the following code in Pycharm:
+ 
+     import tensorflow as tf
+
+     sess = tf.Session(config=tf.ConfigProto(log_device_placement=True))
+     
+     we should get something like below (without reported errors):
+     
+     2018-03-15 09:45:07.000249: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140]      Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+     ...
+ 
