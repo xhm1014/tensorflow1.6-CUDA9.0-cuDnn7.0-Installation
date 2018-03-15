@@ -1,4 +1,4 @@
-_7# tensorflow1.6-CUDA9.0-cuDnn7.0-Installation
+# tensorflow1.6-CUDA9.0-cuDnn7.0-Installation
 
 I spend half a day to install tensorflow1.6-cuda9.0-cuDnn7.0 on Win10. Just write it down in case others or myself need it in future.
 
@@ -20,4 +20,16 @@ The following are steps:
 
 6) configure environmental variables
     
-    --- open Control Panel - System and Security - System - Advanced system settings - Environmental Variables (see the)
+    --- open Control Panel - System and Security - System - Advanced system settings - Environmental Variables (see the EV.png picture)
+    
+    --- click the path - edit - add following path to path variale (see the )
+        
+          C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\cuda
+          
+          C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64
+          
+          C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\extras\CUPTI\libx64
+          
+          C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin
+          
+          C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include
