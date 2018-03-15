@@ -12,8 +12,12 @@ The following are steps:
 
 5) download cudnn-9.0-windowns10-x64-v7. this file only includes some library files: bin/cudnn64_7.dll, include/cudnn.h, lib/x64/cudnn.lib. so we do not need to install anything. Note that here we only need to
 
---- copy cudnn64_7.dll to: 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin'
+     --- copy cudnn64_7.dll to: 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin'
 
---- copy cudnn.h to: 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include'
+     --- copy cudnn.h to: 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include'
 
---- copy cudnn.lib to: 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64'
+     --- copy cudnn.lib to: 'C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64'
+
+6) configure environmental variables
+    
+    --- open Control Panel - System and Security - System - Advanced system settings - Environmental Variables (see the)
