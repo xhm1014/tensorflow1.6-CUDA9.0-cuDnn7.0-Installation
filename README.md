@@ -45,3 +45,4 @@ The following are steps:
      2018-03-15 09:45:07.000249: I C:\tf_jenkins\workspace\rel-win\M\windows-gpu\PY\35\tensorflow\core\platform\cpu_feature_guard.cc:140]      Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
      ...
  
+ Notes: I only tried tensorflow1.6.0+cuda9.0+cudnnV7.0. Looks like that these selected versions should be matched with each other. 
