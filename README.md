@@ -46,3 +46,18 @@ The following are steps:
      ...
  
  Notes: I only tried tensorflow1.6.0+cuda9.0+cudnnV7.0. Looks like that these selected versions should be matched with each other. 
+
+The simple way to run tensorboard from pycharm is as follows:
+
+1) In pycharm terminal windown, change directory to (the directory of your tensorboard): 
+
+C:\Users\xuh3\AppData\Roaming\Python\Python35\site-packages\tensorboard
+
+2) run the below command:
+
+python main.py --logdir='your log directory'
+
+3) open the following provided link for tensorboard visulation (example see tensorboard.png)
+
+TensorBoard 1.5.1 at http://LRI-107580:6006 (Press CTRL+C to quit)
+
