@@ -51,7 +51,7 @@ The simple way to run tensorboard from pycharm is as follows:
 
 1) In pycharm terminal windown, change directory to (the directory of your tensorboard): 
 
-C:\Users\xuh3\AppData\Roaming\Python\Python35\site-packages\tensorboard
+cd C:\Users\xuh3\AppData\Roaming\Python\Python35\site-packages\tensorboard
 
 2) run the below command:
 
