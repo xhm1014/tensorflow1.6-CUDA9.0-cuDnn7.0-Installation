@@ -57,7 +57,7 @@ cd C:\Users\xuh3\AppData\Roaming\Python\Python35\site-packages\tensorboard
 
 python main.py --logdir Y:\skin_image_seg\tmp\retrain_logs\train
 
-or try this: tensorboard --logdir=path/to/log-directory
+or try this: tensorboard --logdir=path\to\log-directory
 
 3) open the following provided link for tensorboard visulation (example see tensorboard.png)
 
