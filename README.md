@@ -61,6 +61,9 @@ or try this: tensorboard --logdir=path\to\log-directory
 
 (go to your project directary, i.e., in our deep learning machine)
 
+or in my pycharm win10, I use: python -m tensorboard.main --logdir=./tmp/autoencoder
+(./tmp/autoencoder   # is my directory for saving my history file)
+
 3) open the following provided link for tensorboard visulation (example see tensorboard.png)
 
 TensorBoard 1.5.1 at http://LRI-107580:6006 (Press CTRL+C to quit)
